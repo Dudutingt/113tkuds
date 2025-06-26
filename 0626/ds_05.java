@@ -1,0 +1,10 @@
+public class ds_05 {
+    public static void main(String[] args) {
+        int[] numbers = {5, 8, 12, 20, 7, 3, 9, 14, 6, 11};
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println("陣列總和為：" + sum);
+    }
+}
